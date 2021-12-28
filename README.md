@@ -36,11 +36,9 @@ You can use docker container to launch the app.
 Feel free to use this [Docker image](https://hub.docker.com/repository/docker/pewxh/salary-prediction-flask) and run CLI from isolated container:
 
 ```bash
-docker run -d -p 5000:5000 pewxh/salary-prediction-flask
+docker run -d -p 5000:5000 kotisingam/salary-prediction
 ```
 
 <i><b>- p</b> is used to publish the port number 5000 of the container to that of our hostmachine.</i>
 
-## 📖 Detailed Explaination
-
-Read this [Article](https://pewxh.medium.com/deploying-an-ml-model-inside-a-docker-container-using-flask-17c895b1285e) for better understanding.
+Credits: (https://pewxh.medium.com/deploying-an-ml-model-inside-a-docker-container-using-flask-17c895b1285e)
